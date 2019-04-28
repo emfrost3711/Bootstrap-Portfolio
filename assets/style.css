@@ -1,10 +1,31 @@
+#logo {
+  float: left;
+  width: 388px;
+  height: 90px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 90px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  background: #3CB371;
+}
+
+.img-fluid {
+  max-width: 100%;
+  float: left;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
 
 h1,
 h2,
 h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
-  color: #4aaaa5;
+  color: #3CB371;
 }
 
 h1 {
@@ -55,7 +76,7 @@ footer {
   color: #cccccc;
   text-align: center;
   background: #666666;
-  border-top: 8px solid #4aaaa5;
+  border-top: 8px solid #3CB371;
   height: 50px;
   display: flex;
   flex-direction: column;
@@ -100,30 +121,9 @@ h3 {
 
 /* header */
 /* 
-#masthead {
-  position: fixed;
-  z-index: 99;
-  width: 100%;
-  margin: 0 0 30px;
-  overflow: auto;
-  color: #ffffff;
-  background: #ffffff;
-  border-bottom: 2px solid #cccccc;
-}
 
-#logo {
-  float: left;
-  width: 250px;
-  height: 90px;
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 90px;
-  color: #ffffff;
-  text-align: center;
-  text-decoration: none;
-  background: #4aaaa5;
-}
+
+
 
 nav {
   float: right;
@@ -204,12 +204,7 @@ h3, h2 {
   border-bottom: 0;
 } */
 /* 
-.auth-image {
-  float: left;
-  width: 200px;
-  height: auto;
-  margin-top: 10px;
-  margin-right: 25px;
+
 } */
 
 /* contact page */

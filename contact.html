@@ -41,24 +41,22 @@
             <h1>Contact</h1>
           </div>
         </div>
-        <!-- master row for contact form-->
-        <div class="row">
-          <div class="col-md-10 col-12">
-            <form id="contact-form">
-              <ul>
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" placeholder="John Smith" required="required">
-
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-
-                <label for="message">Message</label>
-                <textarea id="message" name="message" required="required"></textarea>
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Jane Smith" required="required">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect2">Message</label>
+            <select multiple class="form-control" id="exampleFormControlSelect2">
               </ul>
               <input type="submit">
-            </form>
-          </div>
-        </div>
+          </select>
+        </form>
     </div>
   </div>
   </section>
