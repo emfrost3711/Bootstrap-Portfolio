@@ -82,11 +82,24 @@ footer {
   flex-direction: column;
 }
 
+input[type=submit] {
+  margin-top: 30px;
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #ffffff;
+  cursor: pointer;
+  background: #3CB371;
+  border: 0 none;
 
+}
 
+h3, h2 {
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  line-height: 22px;
+  border-bottom: 2px solid #eeeeee;
 
-
-
+}
 
 
 
@@ -234,15 +247,7 @@ textarea {
   border: 1px solid #dddddd;
 } */
 /* 
-textarea {
+textarea 
   height: 200px;
-}
 
-input[type=submit] {
-  padding: 10px 30px;
-  font-size: 18px;
-  color: #ffffff;
-  cursor: pointer;
-  background: #4aaaa5;
-  border: 0 none;
-} */ 
+
